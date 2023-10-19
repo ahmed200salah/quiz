@@ -71,7 +71,7 @@ const questions = [
         ]
     },
     {
-        question: "لمعرفة محتويات اي ملف نستخدم اي امر؟",
+        question: "لمعرفة محتويات اي فولدر نستخدم اي امر؟",
         answers:[
             {Text: "dir", correct: true},
             {Text: "type", correct: false},
@@ -80,7 +80,7 @@ const questions = [
         ]
     },
     {
-        question: "لترتيب اي ملف تكست ابجدي اي امر نستخدم؟",
+        question: "لترتيب اي ملف نصي ابجدي اي امر نستخدم؟",
         answers:[
             {Text: "sort", correct: true},
             {Text: "move", correct: false},
