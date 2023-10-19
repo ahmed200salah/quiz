@@ -149,8 +149,8 @@ function selectAnswer(e){{
 
 function showScore(){
     resetState();
-    questionElement.innerHTML = `جبت ${score} من ${questions.length} 😳!`;
-    nextButton.innerHTML = "🤔من راي تاني";
+    questionElement.innerHTML = `عاش ٍجبت ${score} من ${questions.length}   😳!`;
+    nextButton.innerHTML = "🤔من رأيي عيد تاني";
     nextButton.style.display = "block"
 }
 
