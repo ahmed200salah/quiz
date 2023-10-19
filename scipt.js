@@ -53,7 +53,7 @@ const questions = [
         ]
     },
     {
-        question: "لتحريك ملف او صورة او تكست نتسحدم اي امر؟",
+        question: "لتحريك ملف او صورة او ملف نصي نستخدم اي امر؟",
         answers:[
             {Text: "ipconfig", correct: false},
             {Text: "config", correct: false},
