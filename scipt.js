@@ -17,7 +17,7 @@ const questions = [
             {Text: "del", correct: false},]
     },
     {
-        question: "لحذف ملف نتسخدم اي امر؟",
+        question: "لحذف فولدر نتسخدم اي امر؟",
         answers:[
             {Text: "Rd", correct: true},
             {Text: "del", correct: false},
@@ -44,7 +44,7 @@ const questions = [
         ]
     },
     {
-        question: "لحذف صورة او تكست نستخدم اي امر؟",
+        question: "لحذف صورة او ملف نصي نستخدم اي امر؟",
         answers:[
             {Text: "rd", correct: false},
             {Text: "del", correct: true},
