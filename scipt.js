@@ -89,7 +89,8 @@ const questions = [
         ]
     },
 ]
-
+let timeLeft = document.querySelector(".time-left");
+let countdown;
 const questionElement = document.getElementById("question");
 const answerButton = document.getElementById("answer-buttons");
 const nextButton = document.getElementById("next-btn");
@@ -167,7 +168,20 @@ nextButton.addEventListener("click", ()=>{
         handleNextButton();
     }else{
         startQuiz();
+        clearInterval(countdown);
+        timerDisplay();
     }
 })
 
+
+const timerDisplay = () =>{
+    countdown = setInterval(() => {
+            count--;
+            timeLeft.innerHTML = `${count}s`;
+            if(count == 0){
+                clearInterval(countdown);
+                displayNext();
+            }
+    }, 1000);
+}
 startQuiz();

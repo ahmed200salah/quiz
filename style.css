@@ -80,3 +80,8 @@ body{
 .ahjm{
     color: rgb(173, 36, 36);
 }
+.timer-div{
+    margin-left: 170px;
+    color: rgb(0, 136, 255);
+    align-items: center;
+}
