@@ -1,6 +1,6 @@
 const questions = [
     {
-        question: "علم الاقتاصد هو من العلوم؟",
+        question: "علم الاقتصاد هو من العلوم؟",
         answers:[
             {Text: "الرياضية", correct: false},
             {Text: "الاجتماعية", correct: true},
@@ -9,7 +9,7 @@ const questions = [
         ]
     },
     {
-        question: "اعلم الاقتصاد هو علم يهدف الي",
+        question: "علم الاقتصاد هو علم يهدف الي",
         answers:[
             {Text: "تلبية حاجات ورغبات الافراد والمجتمع من السلع وخدمات", correct: false},
             {Text: "حل المشكلة الاقتصادية", correct: false},
@@ -26,7 +26,7 @@ const questions = [
         ]
     },
     {
-        question: "؟يثوم الاقتصاد الكلي بالتركيز علي الوحدات الاقتصادية الكلية مثل",
+        question: "يقوم الاقتصاد الكلي بالتركيز علي الوحدات الاقتصادية الكلية مثل",
         answers:[
             {Text: "سلوك المستهلك", correct: false},
             {Text: "البطالة", correct: true},
