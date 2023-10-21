@@ -12,15 +12,15 @@ const questions = [
         question: "اعلم الاقتصاد هو علم يهدف الي",
         answers:[
             {Text: "تلبية حاجات ورغبات الافراد والمجتمع من السلع وخدمات", correct: false},
-            {Text: "حل المشكلة الاقتصادية", correct: true},
+            {Text: "حل المشكلة الاقتصادية", correct: false},
             {Text: "ادارة الموارد للوصول للرفاهية", correct: false},
-            {Text: "جميع ما سبق", correct: false},]
+            {Text: "جميع ما سبق", correct: true},]
     },
     {
         question: "يمثل كل ما يدور حول سلوك الفرد؟",
         answers:[
-            {Text: "الاقتصاد الكلي", correct: true},
-            {Text: "الاقتصاد الجزئي", correct: false},
+            {Text: "الاقتصاد الكلي", correct: false},
+            {Text: "الاقتصاد الجزئي", correct: true},
             {Text: "الاقتصاد التقليدي", correct: false},
             {Text: "جميع ما سبق", correct: false},
         ]
@@ -28,8 +28,8 @@ const questions = [
     {
         question: "؟يثوم الاقتصاد الكلي بالتركيز علي الوحدات الاقتصادية الكلية مثل",
         answers:[
-            {Text: "سلوك المستهلك", correct: true},
-            {Text: "البطالة", correct: false},
+            {Text: "سلوك المستهلك", correct: false},
+            {Text: "البطالة", correct: true},
             {Text: "سلوك المنتج", correct: false},
             {Text: "جميع ما سبق", correct: false},
         ]
@@ -37,10 +37,10 @@ const questions = [
     {
         question: "المورد الحر هو",
         answers:[
-            {Text: "كل مورد نبذل فية جهد ولا يدفع فية ثمن", correct: true},
+            {Text: "كل مورد نبذل فية جهد ولا يدفع فية ثمن", correct: false},
             {Text: "كل مورد لا نبذل فية جهد ويدفع فية ثمن", correct: false},
             {Text: "كل كورد نبذل فية جهد ويدفع فية ثمن", correct: false},
-            {Text: "كل مورد لا نبذل فية جهد ولا يدفع فية ثمن", correct: false},
+            {Text: "كل مورد لا نبذل فية جهد ولا يدفع فية ثمن", correct: true},
         ]
     },
 ]
