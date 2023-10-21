@@ -1,91 +1,46 @@
 const questions = [
     {
-        question: "اي امر نستطيع بهي معرفة مكاني؟",
+        question: "علم الاقتاصد هو من العلوم؟",
         answers:[
-            {Text: "Cd", correct: true},
-            {Text: "Dir", correct: false},
-            {Text: "del", correct: false},
-            {Text: "cmd", correct: false},
+            {Text: "الرياضية", correct: false},
+            {Text: "الاجتماعية", correct: true},
+            {Text: "الطبيعية", correct: false},
+            {Text: "جميع ما سبق", correct: false},
         ]
     },
     {
-        question: "انشاء ملف نتسخدم اي امر؟",
+        question: "اعلم الاقتصاد هو علم يهدف الي",
         answers:[
-            {Text: "Cd", correct: false},
-            {Text: "Md", correct: true},
-            {Text: "Rd", correct: false},
-            {Text: "del", correct: false},]
+            {Text: "تلبية حاجات ورغبات الافراد والمجتمع من السلع وخدمات", correct: false},
+            {Text: "حل المشكلة الاقتصادية", correct: true},
+            {Text: "ادارة الموارد للوصول للرفاهية", correct: false},
+            {Text: "جميع ما سبق", correct: false},]
     },
     {
-        question: "لحذف فولدر نتسخدم اي امر؟",
+        question: "يمثل كل ما يدور حول سلوك الفرد؟",
         answers:[
-            {Text: "Rd", correct: true},
-            {Text: "del", correct: false},
-            {Text: "Md", correct: false},
-            {Text: "Cd", correct: false},
+            {Text: "الاقتصاد الكلي", correct: true},
+            {Text: "الاقتصاد الجزئي", correct: false},
+            {Text: "الاقتصاد التقليدي", correct: false},
+            {Text: "جميع ما سبق", correct: false},
         ]
     },
     {
-        question: "؟text انشاء ملف t نسخدم اي امر",
+        question: "؟يثوم الاقتصاد الكلي بالتركيز علي الوحدات الاقتصادية الكلية مثل",
         answers:[
-            {Text: "copy con ahmed.txt", correct: true},
-            {Text: "copy con ahmed.txxt", correct: false},
-            {Text: "copy con ahmed.jpg", correct: false},
-            {Text: "copy con ahmed.png", correct: false},
+            {Text: "سلوك المستهلك", correct: true},
+            {Text: "البطالة", correct: false},
+            {Text: "سلوك المنتج", correct: false},
+            {Text: "جميع ما سبق", correct: false},
         ]
     },
     {
-        question: "لنسخ ملف نستخدم اي امر؟",
+        question: "المورد الحر هو",
         answers:[
-            {Text: "copy", correct: true},
-            {Text: "move", correct: false},
-            {Text: "Cd", correct: false},
-            {Text: "dir", correct: false},
-        ]
-    },
-    {
-        question: "لحذف صورة او ملف نصي نستخدم اي امر؟",
-        answers:[
-            {Text: "rd", correct: false},
-            {Text: "del", correct: true},
-            {Text: "cd", correct: false},
-            {Text: "cmd", correct: false},
-        ]
-    },
-    {
-        question: "لتحريك ملف او صورة او ملف نصي نستخدم اي امر؟",
-        answers:[
-            {Text: "ipconfig", correct: false},
-            {Text: "config", correct: false},
-            {Text: "move", correct: true},
-            {Text: "select", correct: false},
-        ]
-    },
-    {
-        question: "للرجوع خطوة للخلف نستخدم اي امر؟",
-        answers:[
-            {Text: "cd", correct: false},
-            {Text: "cd..", correct: true},
-            {Text: "cd/..", correct: false},
-            {Text: "cd../..", correct: false},
-        ]
-    },
-    {
-        question: "لمعرفة محتويات اي فولدر نستخدم اي امر؟",
-        answers:[
-            {Text: "dir", correct: true},
-            {Text: "type", correct: false},
-            {Text: "sort", correct: false},
-            {Text: "move", correct: false},
-        ]
-    },
-    {
-        question: "لترتيب اي ملف نصي ابجدي اي امر نستخدم؟",
-        answers:[
-            {Text: "sort", correct: true},
-            {Text: "move", correct: false},
-            {Text: "copy", correct: false},
-            {Text: "rd", correct: false},
+            {Text: "كل مورد نبذل فية جهد ولا يدفع فية ثمن", correct: true},
+            {Text: "كل مورد لا نبذل فية جهد ويدفع فية ثمن", correct: false},
+            {Text: "كل كورد نبذل فية جهد ويدفع فية ثمن", correct: false},
+            {Text: "كل مورد لا نبذل فية جهد ولا يدفع فية ثمن", correct: false},
         ]
     },
 ]
